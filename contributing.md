@@ -52,7 +52,7 @@ We are very open and accepting to ideas for new pages and sections. If you are n
 (You will also need to install Gem if it is not already installed by Ruby.)
 
 #### Jekyll
-[Jekyll](https://jekyllrb.com/docs/) is a powerful static site generator that parses markdown into HTML that can be hosted on a static platform (like our provider, GitHub pagse).
+[Jekyll](https://jekyllrb.com/docs/) is a powerful static site generator that parses markdown into HTML that can be hosted on a static platform (like our provider, GitHub pages).
 
 ```bash
 gem install jekyll bundler

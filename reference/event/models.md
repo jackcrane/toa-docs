@@ -76,6 +76,54 @@ nav_order: 0
 | `video_url` | A URL for a match video | `string` |
 | `participants` | An array holding [participant objects](#participant) | `array` |
 
+## Match Details
+
+| Key | Explanation | Data Type |
+| --- | --- | --- |
+| `match_detail_key` | The TOA ID for the match detail | `string` |
+| `match_key` | The TOA ID for the match | `string` |
+| `red_min_pen` | Minor penalties assessed against the red alliance | `number` |
+| `blue_min_pen` | Minor penalties assessed against the blue alliance | `number` |
+| `red_maj_pen` | Major penalties assessed against the red alliance | `number` |
+| `blue_maj_pen` | Major penalties assessed against the blue alliance | `number` |
+| `red` | An object following the [alliance match detail](#alliance-match-details) schema | `object` |
+| `blue` | An object following the [alliance match detail](#alliance-match-details) schema | `object` |
+
+## Alliance Match Detail
+
+This particular schema is only applicable to Ultimate Goal; it will change each year.
+
+| Key | Explanation | Data Type |
+| --- | --- | --- |
+| `auto_wobble_delivered_1` | If the first wobble was delivered in autonomous | `boolean` |
+| `auto_wobble_delivered_2` | If the second wobble was delivered in autonomous | `boolean` |
+| `auto_navigated_1` | If a robot navigated (parked) during auto | `boolean` |
+| `auto_navigated_2` | If the other robot navigated (parked) during auto | `boolean` |
+| `auto_nav_pts` | Points awarded for navigation in auto | `number` |
+| `auto_tower_low` | Number of shots to the low goal during auto | `number` |
+| `auto_tower_mid` | Number of shots to the mid goal during auto | `number` |
+| `auto_tower_high` | Number of shots to the high goal during auto | `number` |
+| `auto_tower_points` | Points awarded for the shots to the high, med, and low goals in autonomous | `number` |
+| `auto_power_shot_left` | If the robot knocked down the left power shot in autonomous | `boolean` |
+| `auto_power_shot_center` | If the robot knocked down the center power shot in autonomous | `boolean` |
+| `auto_power_shot_right` | If the robot knocked down the right power shot in autonomous | `boolean` |
+| `auto_power_shot_points` | Points awarded for the power shots in autonomous | `number` |
+| `auto_wobble_points` | Points awarded for the wobble delivery during autonomous | `number` |
+| `tele_tower_low` | Number of shots to the low tower during teleop | `number` |
+| `tele_tower_mid` | Number of shots to the mid tower during teleop | `number` |
+| `tele_tower_high` | Number of shots to the high tower during teleop | `number` |
+| `end_wobble_rings_1` | Number of rings sitting on the wobble for endgame | `number` |
+| `end_wobble_rings_2` | Number of rings sitting on the other wobble for endgame | `number` |
+| `end_wobble_1` | **TODO** | `number` |
+| `end_wobble_2` | **TODO** | `number` |
+| `end_wobble_points` | Number of points awarded for wobble delivery in endgame | `number` |
+| `end_wobble_ring_points` | Number of points awarded for rings on a delivered wobble in endgame | `number` |
+| `end_power_shot_left` | If the robot knocked down the left power shot in endgame | `boolean` |
+| `end_power_shot_center` | If the robot knocked down the center power shot in endgame | `boolean` |
+| `end_power_shot_right` | If the robot knocked down the right power shot in endgame | `boolean` |
+| `end_power_shot_points` | Points awarded for power shots during endgame | `number` |
+| `end_nav_points` | Points awarded for navigating in endgame | `number` |
+
 ## Participants
 
 | Key | Explanation | Data Type |

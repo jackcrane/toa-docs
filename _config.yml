@@ -86,6 +86,8 @@ search:
 aux_links:
   "Official TOA Docs":
     - "//theorangealliance.org/apidocs"
+  "Our GitHub":
+    - "//github.com/jackcrane/toa-docs"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false

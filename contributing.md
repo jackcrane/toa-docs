@@ -34,6 +34,7 @@ Before opening/submitting a pull request, you must do each of the following:
 - [ ] Check for spelling and grammatical errors
 - [ ] Check for your TOA api key in code samples and replace it with `:toa-api-key`
 - [ ] Check for your TOA application origin in code samples and replace it with `:toa-application-origin`
+- [ ] Define the models returned by the method.
 - [ ] Test all code samples to verify they are running and functional
 - [ ] Test the page at a handful of screen sizes just to make sure nothing weird occurs. If it does, you can choose to fix it or open an issue and someone else will tackle it.
 - [ ] Add yourself to the contributors list at the bottom of this page.
@@ -79,6 +80,19 @@ bundle exec jekyll serve
 
 We are using [just-the-docs](https://github.com/pmarsceill/just-the-docs), a documentation theme for Jekyll. Documentation on how to use it's search, layout, design, and scripting features are on their [documentation page](https://pmarsceill.github.io/just-the-docs/)
 
+## Expectations
+
+You are expected to keep everything neat, clean, and appropriate on your documentation. For the most part, I am flexible when checking PR's. The largest things of issue are low-quality content, foul language, or targeted comments. 
+
 ## Contributors
 
 [@jackcrane](https://github.com/jackcrane)
+
+## ToDo List
+
+- [ ] Finish everything marked `**TODO**`. Many of these are marked todo because either TOA's description is unintelligible or I have no idea how to document it.
+- [ ] Finish the event section.
+- [ ] Start & work on the match section
+- [ ] Start & work on the team section
+- [ ] Start & work on the league section
+- [ ] Start & work on sections for each other verb. Ideally find someone at TOA for sample API responses so we aren't making test requests to their servers on important data.

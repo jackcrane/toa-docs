@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Authorization
+title: Authentication
 parent: Getting Started
 nav_order: 2
 ---
 
-# Authorization
+# Authentication
 {: .no_toc }
 
 ## Table of contents
